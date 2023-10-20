@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif', serif;
+}
+nav{
+    background-color: rgb(157, 194, 22);
+    display: flex;
+    justify-content: center;
+}
+/* Basic styles for the search container*/
+.search-container {
+display: flex;
+margin-top: 30px;
+}
+/* Style for the search input */
+ 
+#search { 
+padding: 5px;
+font-size: 10px;
+border: 1px solid #ccc;
+border-radius: 5px 0 0 5px;
+outline: none; 
+}
+/* Style for the search button */ 
+button {
+border-radius: 0 10px 5px 0;
+cursor: pointer;
+padding: 5px 10px;
+background-color: #0de679;
+color: white;
+border: 1px solid #4caf50;
+justify-content: space-evenly 15px;
+}
+.date {
+    margin-inline-start:10px;
+    }
+    /* Style for the search input */
+     
+#traveldate { 
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    }
+    /* Style for the search button */ 
+#new1 {
+    border-radius: 0 10px 5px 0;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #0de679;
+    color: white;
+    border: 1px solid #4caf50;
+    }
+/* Change button color on hover */
+button:hover {
+background-color: #45a049;
+border-color: #45a049;
+}
+.guest {
+    margin-inline-start:10px;
+    }
+    /* Style for the search input */
+     
+#no.guest { 
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    }
+    /* Style for the search button */ 
+#new2 {
+    border-radius: 0 10px 5px 0;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #0de679;
+    color: white;
+    border: 1px solid #4caf50;
+    }
+/* Change button color on hover */
+button:hover {
+background-color: #45a049;
+border-color: #45a049;
+}
+nav ul{
+    
+    display: flex;
+}
+nav ul li a{
+    justify-content: space-evenly;
+    margin: 30px;
+    color: bisque;
+    font-weight: bolder;
+    text-decoration: none;
+}
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+h1{
+    color: rgb(10, 90, 238);
+    text-shadow: 4px 5px 3px rgb(111, 233, 10);
+    font-size: 30px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    background-image: url(https://e0.pxfuel.com/wallpapers/390/389/desktop-wallpaper-travelling-quotes-2-adventure-quote.jpg);
+    height: 800px;
+    background-position: top ;
+    background-size: cover;
+}
+.main{
+    border: 2px ridge rgb(185, 77, 228);
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    top: 800px;
+    left: 10%;
+    box-shadow: 4px 5px;
+}
+span{
+    color: rgb(17, 245, 70);
+}
+h3{
+
+    text-align: center;
+    color: rgb(21, 243, 224);
+
+}
+.p{
+    display: flex;
+}
+.pic img{
+    width: 500px;
+}
+.pic h4{
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+    color: violet;
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+}
+.containertwo img{
+    height: 800px;
+    background-position: top ;
+    background-size: cover;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: 250px;
+    height: 550px;
+    border:2px ridge rgb(119, 197, 47) ;
+    margin: 20px;
+    background: linear-gradient(to top,rgb(173, 231, 14) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: 0.8s;
+}
+.box:hover{
+    background-position: right bottom;
+    border: none;
+    box-shadow: 3px 5px 6px 2px rgb(34, 241, 45);
+}
+.box img{
+    width: 100%;
+    }
+    .box h4{
+        text-align: center;
+        color: green;
+    }
+    .box p{
+        text-align: justify;
+        margin: 20px;
+    }
+.gallery{
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.gallery,img:hover{
+    box-shadow: 3px 4px 5px rgb(6, 233, 100);
+}
